@@ -1,11 +1,11 @@
 # 🌐 Hong Luu – Developer Portfolio
 
+🔗 Live Website: https://hongluu.com  
+💻 GitHub: https://github.com/hong-luu44
+
 A personal portfolio website showcasing my web development projects, UI work, and full-stack applications.
 
 This portfolio highlights my experience building responsive web interfaces, integrating APIs, and developing scalable backend systems.
-
-🔗 **Live Portfolio:**  
-https://hongluu.com/
 
 ---
 
