@@ -5,7 +5,7 @@ A personal portfolio website showcasing my web development projects, UI work, an
 This portfolio highlights my experience building responsive web interfaces, integrating APIs, and developing scalable backend systems.
 
 🔗 **Live Portfolio:**  
-https://github.com/hong-luu44/portfolio.git
+https://hongluu.com/
 
 ---
 
