@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hong Luu | Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div class="bg-glow bg-glow-top" aria-hidden="true"></div>
+	<div class="bg-glow bg-glow-bottom" aria-hidden="true"></div>
+
+	<header class="site-header">
+		<div class="container header-inner">
+			<div class="brand">
+				<h1>Hong Luu</h1>
+				<p>Software Developer | UI and Web Applications</p>
+			</div>
+
+			<nav aria-label="Main navigation">
+				<a href="#projects">Projects</a>
+				<a href="#about">About</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero container reveal">
+			<p class="eyebrow">Available for full-time and contract work</p>
+			<h2>Building practical digital products with clean code and clear UX.</h2>
+			<p class="hero-copy">
+				I design and develop responsive web applications focused on usability,
+				performance, and real-world outcomes.
+			</p>
+			<div class="hero-actions">
+				<a class="btn btn-primary" href="#projects">View Projects</a>
+				<a class="btn btn-secondary" href="#contact">Get In Touch</a>
+			</div>
+		</section>
+
+		<section id="projects" class="section container reveal">
+			<div class="section-header">
+				<p class="eyebrow">Selected Work</p>
+				<h2>Projects</h2>
+			</div>
+
+			<div class="projects-grid">
+				<article class="project-card reveal">
+					<h3>Woodland Park Baptist Church Website</h3>
+					<p>
+						Full-stack church management system with login, donations, and
+						member features.
+					</p>
+					<p class="tech">
+						Java Spring Boot, PostgreSQL, HTML, CSS, JavaScript
+					</p>
+					<a href="https://woodlandpark.life" target="_blank" rel="noopener noreferrer">View Project</a>
+				</article>
+
+				<article class="project-card reveal">
+					<h3>Integrated Consulting Business Platform</h3>
+					<p>
+						Business management platform supporting dashboards, transactions,
+						and reporting.
+					</p>
+					<p class="tech">Spring Boot, PostgreSQL, REST APIs</p>
+					<a href="https://integratedconsulting.tech" target="_blank" rel="noopener noreferrer">View Project</a>
+				</article>
+
+				<article class="project-card reveal">
+					<h3>Patient Dashboard Application</h3>
+					<p>
+						Responsive health dashboard built from an Adobe XD design with
+						real-time data visualization.
+					</p>
+					<p class="tech">HTML, CSS, JavaScript, Chart.js</p>
+				</article>
+
+				<article class="project-card reveal">
+					<h3>Weather Application</h3>
+					<p>Weather forecast web app with API integration and interactive UI.</p>
+					<p class="tech">JavaScript, APIs, Responsive Design</p>
+				</article>
+			</div>
+		</section>
+
+		<section id="about" class="section container reveal">
+			<div class="section-header">
+				<p class="eyebrow">Profile</p>
+				<h2>About Me</h2>
+			</div>
+			<p>
+				Computer Science graduate with experience building full-stack web
+				applications. I focus on simple interfaces and reliable backend systems.
+				My work includes API integration, dashboards, authentication flows, and
+				responsive UI design.
+			</p>
+		</section>
+
+		<section id="contact" class="section container reveal">
+			<div class="section-header">
+				<p class="eyebrow">Let's Connect</p>
+				<h2>Contact</h2>
+			</div>
+			<div class="contact-card">
+				<p>Email: <a href="mailto:hong.luu@snhu.edu">hong.luu@snhu.edu</a></p>
+				<p>
+					GitHub:
+					<a href="https://github.com/hong-luu44" target="_blank" rel="noopener noreferrer">
+						github.com/hong-luu44
+					</a>
+				</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; <span id="year"></span> Hong Luu</p>
+	</footer>
+</body>
+</html>
