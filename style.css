@@ -116,8 +116,13 @@ main {
 	background: linear-gradient(120deg, rgba(255, 255, 255, 0.9), rgba(250, 244, 236, 0.9));
 	border: 1px solid var(--line);
 	border-radius: 20px;
-	padding: clamp(2rem, 5vw, 4.2rem);
+	padding: clamp(1.85rem, 4.6vw, 3.8rem);
 	box-shadow: var(--shadow-soft);
+}
+
+.hero h2 {
+	margin-top: 0;
+	max-width: 12ch;
 }
 
 .eyebrow {
@@ -137,13 +142,13 @@ h2 {
 }
 
 .hero-copy {
-	margin-top: 1rem;
+	margin-top: 0.85rem;
 	max-width: 65ch;
 	color: var(--muted);
 }
 
 .hero-actions {
-	margin-top: 1.6rem;
+	margin-top: 1.35rem;
 	display: flex;
 	gap: 0.8rem;
 	flex-wrap: wrap;
